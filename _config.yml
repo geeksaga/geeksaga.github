@@ -5,6 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+safe: true
+lsi: false
+
 # Site settings
 title: Try to writing anyway
 email: geeksaga@geeksaga.com
@@ -19,3 +22,11 @@ github_username:  geeksaga
 
 # Build settings
 markdown: kramdown
+
+permalink: pretty
+#highlighter: pygments
+#
+#gems:
+#      - jemoji
+
+#paginate: 10
