@@ -4,7 +4,7 @@ title: "git 설정"
 description: "git 환경 설정 방법과 예제."
 category: index
 tags: [git, 개발환경]
-published: false
+published: true
 ---
 
 {% highlight ruby %}
@@ -13,7 +13,8 @@ git config --global user.name "name"
 git config --global user.email "email address"
 {% endhighlight %}
 
-~/.gitconfig
+사용중인 gitconfig 기본 설정(~/.gitconfig)
+
 {% highlight ruby %}
 [user]
 	name = name
