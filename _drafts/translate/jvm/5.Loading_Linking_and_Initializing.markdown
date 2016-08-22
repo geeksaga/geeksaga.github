@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Loading, Linking and Initializing"
+description: "Chapter 5 Loading,Linking, and Initializing"
+category: index
+tags: [jvm, spec, translate]
+published: true
+---
+
+{% highlight ruby %}
+THE Java Virtual Machine dynamically loads, links and initializes classes and
+interfaces. Loading is the process of finding the binary representation of a class
+or interface type with a particular name and creating a class or interface from
+that binary representation. Linking is the process of taking a class or interface and
+combining it into the run-time state of the Java Virtual Machine so that it can be
+executed. Initialization of a class or interface consists of executing the class or
+interface initialization method <clinit> (§2.9).
+{% endhighlight %}
+
+자바 가상 머신(JVM) 은 클래스와 인터페이스를 동적으로 로드하고 링크한 후 초기화 한다.
+로딩은 특정 이름으로 클래스 또는 인터페이스 타입의 바이너리 표현을 찾고 해당 바이너리 표현에서 클래스 또는 인터페이스를 생성하는 과정이다.
+링크는 클래스 또는 인터페이스를 획득하고 실행할 수 있도록 자바 가상 머신 실행시의 상태를 결합하는 과정이다.
+클래스 또는 인터페이스의 초기화는 클래스 또는 인터페이스의 초기화 메소드 <clinit> 를 실행하는 것으로 구성되어 있다.(§2.9).
+
+In this chapter, §5.1 describes how the Java Virtual Machine derives symbolic
+references from the binary representation of a class or interface. §5.2 explains
+how the processes of loading, linking, and initialization are first initiated by the
+Java Virtual Machine. §5.3 specifies how binary representations of classes and
+interfaces are loaded by class loaders and how classes and interfaces are created.
+Linking is described in §5.4. §5.5 details how classes and interfaces are initialized.
+§5.6 introduces the notion of binding native methods. Finally, §5.7 describes when
+a Java Virtual Machine exits.
