@@ -85,3 +85,6 @@ a class or interface. Such a reference gives a symbolic reference to a field of 
 class or interface, or a method of a class, or a method of an interface, depending
 on the kind of the method handle.
 {% endhighlight %}
+
+5.1 런타임 상수 풀
+자바 가상 머신은 해당 타입의 상수 풀(§2.5.5)을 통해 전통적인 프로그래밍 언어로 구현된 심볼 테이블의 목적을 많이 제공하는 런타임 데이터 구조를 유지한다.
