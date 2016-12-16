@@ -7,6 +7,11 @@ tags: [python, venv, 개발환경]
 published: true
 ---
 
+Python virtualenv 를 사용하는 기본적인 목적은 프로젝트 별로 필요한 환경을 만들기 위해 사용한다.
+
+
+### virtualenv 설정 하기
+
 Linux 계열 환경에서 Python3 이 설치 되어있을 경우 가상환경 설정은 다음과 같은 순서로 진행한다.
 설정은 사용자 홈 디렉토리 밑에 설정하는 것으로 한다.
 
@@ -26,4 +31,31 @@ $> source ~/dev_env/bin/activate
 
 {% highlight ruby %}
 $> source ~/dev_env/bin/deactivate
+{% endhighlight %}
+
+
+### vritualenv 활용
+ - virtualenv 환경에 설치된 package 목록 가져오기
+
+{% highlight ruby %}
+$> pip freeze > requirements.txt 
+{% endhighlight %}
+
+  freeze 옵션을 사용하면 현재 가상환경에 설치된 package 이름과 버전이 출력된다.
+
+{% highlight ruby %}
+click==6.6
+Flask==0.11.1
+itsdangerous==0.24
+Jinja2==2.8
+MarkupSafe==0.23
+newrelic==2.76.0.55
+Werkzeug==0.11.11
+wheel==0.24.0
+{% endhighlight %}
+
+ - 새로운 virtualenv 환경에 필요한 package 설치하기 
+
+{% highlight ruby %}
+$> pip install -r requirements.txt
 {% endhighlight %}
