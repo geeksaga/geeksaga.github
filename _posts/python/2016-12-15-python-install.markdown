@@ -31,3 +31,9 @@ sudo sh setuptools-0.6c11-py2.7.egg
 
 curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
 sudo python get-pip.py
+
+
+./configure --prefix=$PYTHON_HOME
+make
+make test
+make install
