@@ -90,6 +90,9 @@ hello, world
 ## 참고 링크
 
 * [Getting Started][1]
+* [Setting GOPATH][2]
 
 [1]: https://golang.org/doc/install "Getting Started"
+{:target="blank"}
+[2]: https://github.com/golang/go/wiki/SettingGOPATH "Setting GOPATH"
 {:target="blank"}
