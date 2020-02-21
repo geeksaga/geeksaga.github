@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "jekyll 연습용 페이지."
 description: "잘 써 보자."
 category: index
