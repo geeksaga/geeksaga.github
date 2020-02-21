@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "git 설정"
 description: "git 환경 설정 방법과 예제."
 category: index

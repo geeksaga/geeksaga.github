@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Python Special Method"
 description: "Python Special Method. Double UNDERScore Method(DUNDER)"
 category: index

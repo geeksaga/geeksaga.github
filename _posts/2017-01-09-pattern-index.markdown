@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Design Pattern Catalog"
 description: "Design Pattern - Catalog"
 category: index

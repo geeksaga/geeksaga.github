@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "파이썬 설치 및 설정"
 description: "파이썬 설치 및 설정 예제."
-category: index
+category: python 
 tags: [python, 개발환경]
 published: true
 ---

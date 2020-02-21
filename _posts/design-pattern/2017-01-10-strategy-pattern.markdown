@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Strategy Pattern"
 description: "Design Pattern - Strategy Pattern"
 category: index

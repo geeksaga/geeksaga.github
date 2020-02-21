@@ -1,8 +1,7 @@
 ---
-layout: post
 title: "파이썬3 가상환경(venv) 설정"
 description: "파이썬3 가상환경(venv) 설정."
-category: index
+category: python 
 tags: [python, venv, 개발환경]
 published: true
 ---

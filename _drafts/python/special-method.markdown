@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Python Special Method"
 description: "Python Special Method. Double UNDERScore Method(DUNDER)"
 category: index
@@ -26,9 +25,9 @@ published: true
 
 {% highlight python %}
 class SomeClass:
-	def __new__(cls, *args, **kwargs):
-		if len(args) < 2:
-		    return None
-		return super(SpecialMethodTest, cls).__new__(cls, *args, **kwargs)
+  def __new__(cls, *args, **kwargs):
+    if len(args) < 2:
+      return None
+    return super(SpecialMethodTest, cls).__new__(cls, *args, **kwargs)
 
 {% endhighlight %}
