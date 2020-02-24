@@ -1,5 +1,4 @@
 ---
-layout: post                                                                       
 title: "Python Underscores"                                                     
 description: "meaning underscores in python"
 category: index                                                                    
