@@ -12,6 +12,7 @@ tags:
 toc: true
 toc_label: "Code for TypeScript"
 published: true
+comments: true
 date: Mon Feb 24 17:39:30 KST 2020
 ---
 
