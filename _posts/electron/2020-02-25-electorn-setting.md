@@ -22,7 +22,6 @@ Electron 개발환경을 설치 및 설정하고 튜토리얼을 통해 기본�
   - [Node](https://nodejs.org/ "NodeJs.org"){:target="blank"}
   - [Yarn](https://classic.yarnpkg.com/en/ "Yarn"){:target="blank"}
 
-
 다음 명령으를 통해 확인할 수 있다.
 
 ```shell

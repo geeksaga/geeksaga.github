@@ -3,6 +3,7 @@ title: "Visual Studio Code for TypeScript"
 description: "Visual Studio Code 환경에서 TypeScript 개발하기."
 category:
   - ide
+  - typescript
 tags:
   - IDE
   - VisualStudioCode
@@ -14,6 +15,7 @@ toc_label: "Code for TypeScript"
 published: true
 comments: true
 date: Mon Feb 24 17:39:30 KST 2020
+update: Wed Feb 26 18:09:47 KST 2020
 ---
 
 프로그래밍을 할 때 개발 환경 구성은 매우 중요하다.
@@ -25,9 +27,9 @@ date: Mon Feb 24 17:39:30 KST 2020
 ## 준비사항 
 
   다음 프로그램들이 설치되어 있어야 한다.
-  - [Visual Studio Code](https://code.visual studio.com/ "Visual Studio Code"){:target="blank"} 설치.
-  - TypeScript 설치.
-
+  - [Visual Studio Code](https://code.visual studio.com/ "Visual Studio Code"){:target="blank"}
+  - [Node](https://nodejs.org/·"NodeJs.org"){:target="blank"}
+  - [TypeScript](/typescript/typescript-install/ "TypeScript"){:target="blank"}
 
 ## 비주얼 스튜디오 코드 둘러보기
 

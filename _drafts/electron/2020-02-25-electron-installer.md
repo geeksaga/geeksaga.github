@@ -13,6 +13,21 @@ published: true
 comments: true
 ---
 
+Electron 프로그램 배포를 위한 작업 방법을 알아본다.
+
+## Installer 종류
+
+Electron Installer를 만들기 위해서는 사용되는 종류.
+
+electron-builder
+https://github.com/electron-userland/electron-builder
+
+electron-packager
+https://github.com/electron/electron-packager
+
+
+http://electron.ebookchain.org/ko-KR/tutorial/application-distribution.html
+
 ### 개발용 패키지
 
 ### 배포
@@ -29,7 +44,7 @@ yarn install
 
 참고링크
 
-* [Electron Install][1]
+* [Electron Builder][1]
 
-[1]: https://www.electronjs.org/docs/tutorial/installation "Electron Install"
+[1]: https://github.com/electron-userland/electron-builder "Electron Builder"
 {:target="blank"}
