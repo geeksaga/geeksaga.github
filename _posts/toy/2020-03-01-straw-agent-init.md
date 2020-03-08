@@ -11,7 +11,7 @@ tags:
 
 toc: true
 toc_labe: "Straw Agent 환경 설정"
-published: false
+published: true
 comments: true
 ---
 
@@ -55,8 +55,14 @@ $> git init
 ### GoLand 
 
 
-## 코딩
+## 코딩 스타일 가이드
 https://github.com/uber-go/guide/blob/master/style.md
 https://github.com/TangoEnSkai/uber-go-style-guide-kr
 
+## GitHub 저장소
 
+내용을 일일이 다 기록하지는 못했지만 1차 작업 내용을 아래 주소로 공개한다.
+
+[Straw Agent](https://github.com/geekflow/straw "Straw Agent")
+
+중간에 귀찮아서 빼먹은 내용들은 계속 업데이트 예정이다.
