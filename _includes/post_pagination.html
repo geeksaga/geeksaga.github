@@ -1,5 +1,12 @@
 {% if page.previous or page.next %}
   <nav class="pagination">
+<script src="https://utteranc.es/client.js"
+        repo="geeksaga/blog-comments"
+        issue-term="[ENTER TERM HERE]"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
     {% if page.previous %}
       <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
     {% else %}
