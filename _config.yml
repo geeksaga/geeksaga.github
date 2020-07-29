@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "GeekSaga"
-  avatar           : "/assets/images/albert.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/geeksaga-bighead.svg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "별거 없다."
   location         : "Korea"
   email            : geeksaga@geeksaga.com
