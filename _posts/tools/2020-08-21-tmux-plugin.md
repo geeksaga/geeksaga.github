@@ -43,10 +43,14 @@ TPM 기반 플러그인을 사용하기 전에 TPM 플러그인 매니저가 설
     : `tmux-urlview`는 대상이 URL이지만 `tmux-open` 플러그인은 tmux Copy 모드에서 highlight 된 파일이나 URL 등을 오픈 할 수 있는 플러그인 입니다. 
 
 
-## 독립적인 플러그인들
+## 독립적인 툴과 플러그인들
 
  - [Tmuxifier](https://github.com/jimeh/tmuxifier)
-   : 자주 사용하는 레이아웃을 저장하여 사용할 수 있는 플러그인 입니다.
+   : 자주 사용하는 레이아웃을 저장하여 사용할 수 있는 도구 입니다.
+ - [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
+   : Tmux 세션을 관리해주는 도구 입니다.
+ - [rainbarf](https://github.com/creaktive/rainbarf)
+   : CPU,RAM,Battery 상태를 차트 형태로 보여주는 플러그인 입니다.
 
 
 ## 참고링크
