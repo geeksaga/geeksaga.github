@@ -33,6 +33,15 @@ TPM 기반 플러그인을 사용하기 전에 TPM 플러그인 매니저가 설
 
 참고링크를 통해 설치를 완료하자.
 
+  - [tmux-yank](https://github.com/tmux-plugins/tmux-yank)
+    : tmux 시스템 클립보드로 복사 해주는 플러그인 입니다.
+  - [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible)
+    : tmux에서 유요하다고 생각하는 설정들을 자동으로 설정해주는 플러그인 입니다.
+  - [tmux-urlview](https://github.com/tmux-plugins/tmux-urlview)
+    : 터미널(콘솔)에서 표시되는 URL을 오픈해주는 플러그인 입니다.
+  - [tmux-open](https://github.com/tmux-plugins/tmux-open)
+    : `tmux-urlview`는 대상이 URL이지만 `tmux-open` 플러그인은 tmux Copy 모드에서 highlight 된 파일이나 URL 등을 오픈 할 수 있는 플러그인 입니다. 
+
 
 ## 독립적인 플러그인들
 
