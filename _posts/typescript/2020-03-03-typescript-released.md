@@ -17,6 +17,7 @@ comments: false
 ## TypeScript Released
 
 
+* [TypeScript 4.1](https://devblogs.microsoft.com/typescript/announcing-typescript-4-1/ "TypeScript 4.1"){:target="blank"}
 * [TypeScript 4.0](https://devblogs.microsoft.com/typescript/announcing-typescript-4-0/ "TypeScript 4.0"){:target="blank"}
 * [TypeScript 3.9](https://devblogs.microsoft.com/typescript/announcing-typescript-3-9/ "TypeScript 3.9"){:target="blank"}
 * [TypeScript 3.8](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8/ "TypeScript 3.8"){:target="blank"}
